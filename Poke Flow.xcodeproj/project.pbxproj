@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		0B86FC7A26672DDC006D50BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FC7926672DDC006D50BA /* AppDelegate.swift */; };
 		0B86FC7C26672DDC006D50BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FC7B26672DDC006D50BA /* SceneDelegate.swift */; };
-		0B86FC7E26672DDC006D50BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FC7D26672DDC006D50BA /* ViewController.swift */; };
-		0B86FC8126672DDC006D50BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B86FC7F26672DDC006D50BA /* Main.storyboard */; };
 		0B86FC8326672DDD006D50BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B86FC8226672DDD006D50BA /* Assets.xcassets */; };
-		0B86FC8626672DDD006D50BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B86FC8426672DDD006D50BA /* LaunchScreen.storyboard */; };
 		0B86FC9126672DDD006D50BA /* Poke_FlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FC9026672DDD006D50BA /* Poke_FlowTests.swift */; };
 		0B86FC9C26672DDD006D50BA /* Poke_FlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FC9B26672DDD006D50BA /* Poke_FlowUITests.swift */; };
+		0B86FCAB26672E67006D50BA /* PokeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FCA926672E67006D50BA /* PokeListViewController.swift */; };
+		0B86FCAC26672E67006D50BA /* PokeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B86FCAA26672E67006D50BA /* PokeListViewController.xib */; };
+		0B86FCAE26672FB6006D50BA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B86FCAD26672FB6006D50BA /* Launch Screen.storyboard */; };
+		0B86FCB1266738CE006D50BA /* PokeCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B86FCAF266738CE006D50BA /* PokeCardCell.swift */; };
+		0B86FCB2266738CE006D50BA /* PokeCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B86FCB0266738CE006D50BA /* PokeCardCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +40,7 @@
 		0B86FC7626672DDC006D50BA /* Poke Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poke Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B86FC7926672DDC006D50BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B86FC7B26672DDC006D50BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B86FC7D26672DDC006D50BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B86FC8026672DDC006D50BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B86FC8226672DDD006D50BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0B86FC8526672DDD006D50BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B86FC8726672DDD006D50BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B86FC8C26672DDD006D50BA /* Poke FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poke FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B86FC9026672DDD006D50BA /* Poke_FlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke_FlowTests.swift; sourceTree = "<group>"; };
@@ -49,6 +48,11 @@
 		0B86FC9726672DDD006D50BA /* Poke FlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poke FlowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B86FC9B26672DDD006D50BA /* Poke_FlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poke_FlowUITests.swift; sourceTree = "<group>"; };
 		0B86FC9D26672DDD006D50BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B86FCA926672E67006D50BA /* PokeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeListViewController.swift; sourceTree = "<group>"; };
+		0B86FCAA26672E67006D50BA /* PokeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokeListViewController.xib; sourceTree = "<group>"; };
+		0B86FCAD26672FB6006D50BA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0B86FCAF266738CE006D50BA /* PokeCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCardCell.swift; sourceTree = "<group>"; };
+		0B86FCB0266738CE006D50BA /* PokeCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokeCardCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		0B86FC7826672DDC006D50BA /* Poke Flow */ = {
 			isa = PBXGroup;
 			children = (
+				0B86FCAD26672FB6006D50BA /* Launch Screen.storyboard */,
 				0B86FC7926672DDC006D50BA /* AppDelegate.swift */,
 				0B86FC7B26672DDC006D50BA /* SceneDelegate.swift */,
-				0B86FC7D26672DDC006D50BA /* ViewController.swift */,
-				0B86FC7F26672DDC006D50BA /* Main.storyboard */,
 				0B86FC8226672DDD006D50BA /* Assets.xcassets */,
-				0B86FC8426672DDD006D50BA /* LaunchScreen.storyboard */,
 				0B86FC8726672DDD006D50BA /* Info.plist */,
+				0B86FCA926672E67006D50BA /* PokeListViewController.swift */,
+				0B86FCAA26672E67006D50BA /* PokeListViewController.xib */,
+				0B86FCAF266738CE006D50BA /* PokeCardCell.swift */,
+				0B86FCB0266738CE006D50BA /* PokeCardCell.xib */,
 			);
 			path = "Poke Flow";
 			sourceTree = "<group>";
@@ -231,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B86FC8626672DDD006D50BA /* LaunchScreen.storyboard in Resources */,
+				0B86FCAE26672FB6006D50BA /* Launch Screen.storyboard in Resources */,
 				0B86FC8326672DDD006D50BA /* Assets.xcassets in Resources */,
-				0B86FC8126672DDC006D50BA /* Main.storyboard in Resources */,
+				0B86FCB2266738CE006D50BA /* PokeCardCell.xib in Resources */,
+				0B86FCAC26672E67006D50BA /* PokeListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B86FC7E26672DDC006D50BA /* ViewController.swift in Sources */,
+				0B86FCAB26672E67006D50BA /* PokeListViewController.swift in Sources */,
 				0B86FC7A26672DDC006D50BA /* AppDelegate.swift in Sources */,
+				0B86FCB1266738CE006D50BA /* PokeCardCell.swift in Sources */,
 				0B86FC7C26672DDC006D50BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,25 +302,6 @@
 			targetProxy = 0B86FC9826672DDD006D50BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0B86FC7F26672DDC006D50BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B86FC8026672DDC006D50BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0B86FC8426672DDD006D50BA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B86FC8526672DDD006D50BA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0B86FC9E26672DDD006D50BA /* Debug */ = {
@@ -445,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cbedoy.Poke-Flow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cbedoy.Poke-Flow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
